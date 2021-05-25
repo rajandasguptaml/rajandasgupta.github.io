@@ -1,5 +1,5 @@
 /**
-* PHP Email Form Validation - v2.3
+* PHP Email Form Validation - v2.0
 * URL: https://bootstrapmade.com/php-email-form/
 * Author: BootstrapMade.com
 */
@@ -130,7 +130,7 @@
       data: data,
       timeout: 40000
     }).done( function(msg){
-      if (msg.trim() == 'OK') {
+      if (msg == 'OK') {
         this_form.find('.loading').slideUp();
         this_form.find('.sent-message').slideDown();
         this_form.find("input:not(input[type=submit]), textarea").val('');
