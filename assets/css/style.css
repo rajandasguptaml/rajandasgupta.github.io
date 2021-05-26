@@ -335,7 +335,7 @@ h6 {
     display: flex;
     justify-content: center;
     align-items: center;
-    color: white;
+    color: rgb(10, 9, 9);
 }
 
 .particles-js-canvas-el {
@@ -349,14 +349,15 @@ h6 {
 }
 
 #particles-js h1 {
+    font-family: "Raleway", sans-serif;
     font-size: 64px;
     font-weight: 700;
     line-height: 56px;
-    color: white;
+    color: #45505b;
 }
 
 #particles-js p {
-    color: white;
+    color: #45505b;
     font-size: 28px;
     font-family: "Poppins", sans-serif;
 }
@@ -398,10 +399,12 @@ h6 {
     #particles-js {
         text-align: center;
         padding-top: 300px;
+
     }
     #particles-js h1 {
         font-size: 42px;
         line-height: 36px;
+        font-family: "Raleway", sans-serif;
     }
     #particles-js p {
         margin-top: 10px;
