@@ -1113,6 +1113,25 @@ section {
     outline: none;
 }
 
+.contacts  button[type="submit"],
+.downloads-btn {
+    background: #0563bb;
+    margin-left: 90%;
+    border: 0;
+    padding: 10px 35px;
+    color: #fff;
+    transition: 0.4s;
+    border-radius: 20px;
+    outline: none;
+}
+
+.contacts button[type="submit"]:hover,
+.downloads-btn:hover {
+    background: #FF7F50;
+    cursor: pointer;
+}
+
+
 .contact .php-email-form button[type="submit"]:hover,
 .download-btn:hover {
     background: #FF7F50;

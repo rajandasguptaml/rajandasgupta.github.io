@@ -410,29 +410,13 @@ function initClock() {
 $(document).ready(function() {
     $("#resumeDownloadButton").click(function(e) {
         e.preventDefault();
-        window.location.href = "assets/resume/Shohag_Resume.pdf";
+        window.location.href = "assets/resume/Rajan_Das_Gupta.pdf";
     });
 });
 
 $("#crmPrevBtn").click(function() {
     $("#exampleModalLongTitle").text("CRM Software - Node.JS(MVC)");
-    $("#modalPic-1").attr("src", "../assets/img/projects/crm-nodejs/1.JPG");
-    $("#modalPic-2").attr("src", "../assets/img/projects/crm-nodejs/2.JPG");
-    $("#modalPic-3").attr("src", "../assets/img/projects/crm-nodejs/3.JPG");
-    $("#modalPic-4").attr("src", "../assets/img/projects/crm-nodejs/4.JPG");
-    $("#modalPic-5").attr("src", "../assets/img/projects/crm-nodejs/5.JPG");
-    $("#modalPic-6").attr("src", "../assets/img/projects/crm-nodejs/6.JPG");
-    $("#modalPic-7").attr("src", "../assets/img/projects/crm-nodejs/7.JPG");
-    $("#modalPic-8").attr("src", "../assets/img/projects/crm-nodejs/8.JPG");
-    $("#modalPic-9").attr("src", "../assets/img/projects/crm-nodejs/9.JPG");
-    $("#modalPic-10").attr("src", "../assets/img/projects/crm-nodejs/10.JPG");
-    $("#modalPic-11").attr("src", "../assets/img/projects/crm-nodejs/11.JPG");
-    $("#modalPic-12").attr("src", "../assets/img/projects/crm-nodejs/12.JPG");
-    $("#modalPic-13").attr("src", "../assets/img/projects/crm-nodejs/13.JPG");
-    $("#modalPic-14").attr("src", "../assets/img/projects/crm-nodejs/14.JPG");
-    $("#modalPic-15").attr("src", "../assets/img/projects/crm-nodejs/15.JPG");
-    $("#modalPic-16").attr("src", "../assets/img/projects/crm-nodejs/16.JPG");
-    $("#modalPic-17").attr("src", "../assets/img/projects/crm-nodejs/17.JPG");
+    
     for (var i = 18; i < 26; i++) {
         $("#modalPic-" + i).attr("src", "");
     }
@@ -457,30 +441,7 @@ $("#crmPrevBtn").click(function() {
 $("#crmLaravelPrevBtn").click(function() {
     $("#exampleModalLongTitle").text("CRM Software - Laravel(MVC)");
     $("#modalPic-1").attr("src", "../assets/img/projects/crm-laravel/1.JPG");
-    $("#modalPic-2").attr("src", "../assets/img/projects/crm-laravel/2.JPG");
-    $("#modalPic-3").attr("src", "../assets/img/projects/crm-laravel/3.JPG");
-    $("#modalPic-4").attr("src", "../assets/img/projects/crm-laravel/4.JPG");
-    $("#modalPic-5").attr("src", "../assets/img/projects/crm-laravel/5.JPG");
-    $("#modalPic-6").attr("src", "../assets/img/projects/crm-laravel/6.JPG");
-    $("#modalPic-7").attr("src", "../assets/img/projects/crm-laravel/7.JPG");
-    $("#modalPic-8").attr("src", "../assets/img/projects/crm-laravel/8.JPG");
-    $("#modalPic-9").attr("src", "../assets/img/projects/crm-laravel/9.JPG");
-    $("#modalPic-10").attr("src", "../assets/img/projects/crm-laravel/10.JPG");
-    $("#modalPic-11").attr("src", "../assets/img/projects/crm-laravel/11.JPG");
-    $("#modalPic-12").attr("src", "../assets/img/projects/crm-laravel/12.JPG");
-    $("#modalPic-13").attr("src", "../assets/img/projects/crm-laravel/13.JPG");
-    $("#modalPic-14").attr("src", "../assets/img/projects/crm-laravel/14.JPG");
-    $("#modalPic-15").attr("src", "../assets/img/projects/crm-laravel/15.JPG");
-    $("#modalPic-16").attr("src", "../assets/img/projects/crm-laravel/16.JPG");
-    $("#modalPic-17").attr("src", "../assets/img/projects/crm-laravel/17.JPG");
-    $("#modalPic-18").attr("src", "../assets/img/projects/crm-laravel/18.JPG");
-    $("#modalPic-19").attr("src", "../assets/img/projects/crm-laravel/19.JPG");
-    $("#modalPic-20").attr("src", "../assets/img/projects/crm-laravel/20.JPG");
-    $("#modalPic-21").attr("src", "../assets/img/projects/crm-laravel/21.JPG");
-    $("#modalPic-22").attr("src", "../assets/img/projects/crm-laravel/22.JPG");
-    $("#modalPic-23").attr("src", "../assets/img/projects/crm-laravel/23.JPG");
-    $("#modalPic-24").attr("src", "../assets/img/projects/crm-laravel/24.JPG");
-    $("#modalPic-25").attr("src", "../assets/img/projects/crm-laravel/25.JPG");
+   
     $("#introParagraph").text(
         "This is the extensive version of the CRM Software that I built using Node.JS. This is based on Laravel with the same project requirements. In this project keeping all the requirements same I just used Laravel web framework to build it. Not only that I also integrated this Laravel application as cient application with the Node.Js application as server side application throught API.This is a web based application that offers small companies and business organizations to manage the cusomer relationship using this software that acts as a SaaS(Software as a Service) application.There are 4 types of users for this system  .1.Company Managers .2.Clients .3.System Admin .4.Marketing Agents.Basically the system is subscription based.Managers from different companies or small business organizations can subscribe to the application to store their client details, schedules, proposals, calls, appointments, deals, chat as well.Again, the clients can be added to system by the managers themselves to login to the system for checking various offers form the company, deals, proposals and chat with the company managers.So the system acts as a common platform to manage the clients for the managers and the clients to interact with the managers.Again, A system admin can get all the report of the current situation of the system including number of organizations subscriptions, how many of them are active and inactive, transaction history.A report of both pdf and excel formt could be downloaded by the admin.Admin also holds the power to suspend any of the organizations for not paying subscription fees.There is a marketing agent in the system that works for the e - marketing.They can get all the clients details and email addresses for sending promotional offers, deals and proposals through social media(email).They get hired by the system admin and get paid after a certain period.Thus the application acts as a E - Marketing appliaction."
     );
@@ -504,24 +465,7 @@ $("#cinePrevBtn").click(function() {
         "Online Theatre Booking System - Cine Carnival"
     );
     $("#modalPic-1").attr("src", "../assets/img/projects/cinecarnival/1.JPG");
-    $("#modalPic-2").attr("src", "../assets/img/projects/cinecarnival/2.JPG");
-    $("#modalPic-3").attr("src", "../assets/img/projects/cinecarnival/3.JPG");
-    $("#modalPic-4").attr("src", "../assets/img/projects/cinecarnival/4.JPG");
-    $("#modalPic-5").attr("src", "../assets/img/projects/cinecarnival/5.JPG");
-    $("#modalPic-6").attr("src", "../assets/img/projects/cinecarnival/6.JPG");
-    $("#modalPic-7").attr("src", "../assets/img/projects/cinecarnival/7.JPG");
-    $("#modalPic-8").attr("src", "../assets/img/projects/cinecarnival/8.JPG");
-    $("#modalPic-9").attr("src", "../assets/img/projects/cinecarnival/9.JPG");
-    $("#modalPic-10").attr("src", "../assets/img/projects/cinecarnival/10.JPG");
-    $("#modalPic-11").attr("src", "../assets/img/projects/cinecarnival/11.JPG");
-    $("#modalPic-12").attr("src", "../assets/img/projects/cinecarnival/12.JPG");
-    $("#modalPic-13").attr("src", "../assets/img/projects/cinecarnival/13.JPG");
-    $("#modalPic-14").attr("src", "../assets/img/projects/cinecarnival/14.JPG");
-    $("#modalPic-15").attr("src", "../assets/img/projects/cinecarnival/15.JPG");
-    $("#modalPic-16").attr("src", "../assets/img/projects/cinecarnival/16.JPG");
-    $("#modalPic-17").attr("src", "../assets/img/projects/cinecarnival/17.JPG");
-    $("#modalPic-18").attr("src", "../assets/img/projects/cinecarnival/18.JPG");
-    $("#modalPic-19").attr("src", "../assets/img/projects/cinecarnival/19.JPG");
+    
     for (var i = 20; i < 26; i++) {
         $("#modalPic-" + i).attr("src", "");
     }
@@ -546,23 +490,7 @@ $("#cinePrevBtn").click(function() {
 $("#comShopPrevBtn").click(function() {
     $("#exampleModalLongTitle").text("Online Tech Shop");
     $("#modalPic-1").attr("src", "../assets/img/projects/online-tech-shop/1.JPG");
-    $("#modalPic-2").attr("src", "../assets/img/projects/online-tech-shop/2.JPG");
-    $("#modalPic-3").attr("src", "../assets/img/projects/online-tech-shop/3.JPG");
-    $("#modalPic-4").attr("src", "../assets/img/projects/online-tech-shop/4.JPG");
-    $("#modalPic-5").attr("src", "../assets/img/projects/online-tech-shop/5.JPG");
-    $("#modalPic-6").attr("src", "../assets/img/projects/online-tech-shop/6.JPG");
-    $("#modalPic-7").attr("src", "../assets/img/projects/online-tech-shop/7.JPG");
-    $("#modalPic-8").attr("src", "../assets/img/projects/online-tech-shop/8.JPG");
-    $("#modalPic-9").attr("src", "../assets/img/projects/online-tech-shop/9.JPG");
-    $("#modalPic-10").attr("src", "../assets/img/projects/online-tech-shop/10.JPG");
-    $("#modalPic-11").attr("src", "../assets/img/projects/online-tech-shop/11.JPG");
-    $("#modalPic-12").attr("src", "../assets/img/projects/online-tech-shop/12.JPG");
-    $("#modalPic-13").attr("src", "../assets/img/projects/online-tech-shop/13.JPG");
-    $("#modalPic-14").attr("src", "../assets/img/projects/online-tech-shop/14.JPG");
-    $("#modalPic-15").attr("src", "../assets/img/projects/online-tech-shop/15.JPG");
-    $("#modalPic-16").attr("src", "../assets/img/projects/online-tech-shop/16.JPG");
-    $("#modalPic-17").attr("src", "../assets/img/projects/online-tech-shop/17.JPG");
-    $("#modalPic-18").attr("src", "../assets/img/projects/online-tech-shop/18.JPG");
+    
     for (var i = 15; i < 26; i++) {
         $("#modalPic-" + i).attr("src", "");
     }
@@ -587,20 +515,7 @@ $("#pixBookPrevBtn").click(function() {
         "Photo Sharing and Photographers Booking Application"
     );
     $("#modalPic-1").attr("src", "../assets/img/projects/pixbook/1.JPG");
-    $("#modalPic-2").attr("src", "../assets/img/projects/pixbook/2.JPG");
-    $("#modalPic-3").attr("src", "../assets/img/projects/pixbook/3.JPG");
-    $("#modalPic-4").attr("src", "../assets/img/projects/pixbook/4.JPG");
-    $("#modalPic-5").attr("src", "../assets/img/projects/pixbook/5.JPG");
-    $("#modalPic-6").attr("src", "../assets/img/projects/pixbook/6.JPG");
-    $("#modalPic-7").attr("src", "../assets/img/projects/pixbook/7.JPG");
-    $("#modalPic-8").attr("src", "../assets/img/projects/pixbook/8.JPG");
-    $("#modalPic-9").attr("src", "../assets/img/projects/pixbook/9.JPG");
-    $("#modalPic-10").attr("src", "../assets/img/projects/pixbook/10.JPG");
-    $("#modalPic-11").attr("src", "../assets/img/projects/pixbook/11.JPG");
-    $("#modalPic-12").attr("src", "../assets/img/projects/pixbook/12.JPG");
-    $("#modalPic-13").attr("src", "../assets/img/projects/pixbook/13.JPG");
-    $("#modalPic-13").attr("src", "../assets/img/projects/pixbook/14.JPG");
-    $("#modalPic-13").attr("src", "../assets/img/projects/pixbook/15.JPG");
+    
     for (var i = 14; i < 26; i++) {
         $("#modalPic-" + i).attr("src", "");
     }
@@ -624,11 +539,7 @@ $("#perfPrevBtn").click(function() {
         "University Student Performance Management System"
     );
     $("#modalPic-1").attr("src", "../assets/img/projects/performance-mgt/1.JPG");
-    $("#modalPic-2").attr("src", "../assets/img/projects/performance-mgt/2.JPG");
-    $("#modalPic-3").attr("src", "../assets/img/projects/performance-mgt/3.JPG");
-    $("#modalPic-4").attr("src", "../assets/img/projects/performance-mgt/4.JPG");
-    $("#modalPic-5").attr("src", "../assets/img/projects/performance-mgt/5.JPG");
-    $("#modalPic-6").attr("src", "../assets/img/projects/performance-mgt/6.JPG");
+    
     for (var i = 7; i < 26; i++) {
         $("#modalPic-" + i).attr("src", "");
     }
